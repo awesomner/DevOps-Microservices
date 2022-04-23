@@ -17,9 +17,19 @@ Your project goal is to operationalize this working, machine learning microservi
 * Deploy a container using Kubernetes and make a prediction
 * Upload a complete Github repo with CircleCI to indicate that your code has been tested
 
-You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
+## Project Goal
 
-**The final implementation of the project will showcase your abilities to operationalize production microservices.**
+This project will help you to set up simple ML API in Kubernetes cluster.
+
+### Project Tech Stack
+
+#### Containerization
+
+* Kubernetes
+* Docker
+
+#### Continuous Integration and Delivery
+* CircleCI
 
 ---
 
