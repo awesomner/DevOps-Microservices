@@ -45,6 +45,12 @@ source .devops/bin/activate
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally
+  - install Docker on your system and check ```docker --version``` if it's working
+  - log in to docker hub to push the image with ```docker login```
 * Setup and Configure Kubernetes locally
+  - install [minikube](https://kubernetes.io/)
+  - start local cluster with ```minikube start```
 * Create Flask app in Container
+  - run ```./run_kubernetes.sh``` to start the app and expose the port
 * Run via kubectl
+  - run ```kubectl run app-name --image=awesomner/udacity_ml_project:latest --port=80```
