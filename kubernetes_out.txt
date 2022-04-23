@@ -1,8 +1,16 @@
-(devops) ➜  project-ml-microservice-kubernetes git:(master) ✗ ./run_kubernetes.sh
+(base) ➜  DevOps_Microservices git:(master) ✗ ./run_kubernetes.sh
 deployment.apps/prediction created
 NAME                          READY   STATUS              RESTARTS   AGE
-prediction                    0/1     ContainerCreating   0          17s
+prediction                    0/1     ContainerCreating   0          14s
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
-Handling connection for 8000
+
+#######################################
+(base) ➜  DevOps_Microservices git:(master) ✗ ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
